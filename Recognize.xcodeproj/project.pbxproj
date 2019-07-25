@@ -12,7 +12,6 @@
 		F442DF8D22EA21E000516346 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F442DF8B22EA21E000516346 /* Main.storyboard */; };
 		F442DF8F22EA21E100516346 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F442DF8E22EA21E100516346 /* Assets.xcassets */; };
 		F442DF9222EA21E100516346 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F442DF9022EA21E100516346 /* LaunchScreen.storyboard */; };
-		F442DF9A22EA23EA00516346 /* SqueezeNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = F442DF9922EA23EA00516346 /* SqueezeNet.mlmodel */; };
 		F442DF9C22EA49E800516346 /* Resnet50.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = F442DF9B22EA49E800516346 /* Resnet50.mlmodel */; };
 /* End PBXBuildFile section */
 
@@ -24,7 +23,6 @@
 		F442DF8E22EA21E100516346 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F442DF9122EA21E100516346 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F442DF9322EA21E100516346 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F442DF9922EA23EA00516346 /* SqueezeNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SqueezeNet.mlmodel; sourceTree = "<group>"; };
 		F442DF9B22EA49E800516346 /* Resnet50.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Resnet50.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -64,7 +62,6 @@
 				F442DF8E22EA21E100516346 /* Assets.xcassets */,
 				F442DF9022EA21E100516346 /* LaunchScreen.storyboard */,
 				F442DF9322EA21E100516346 /* Info.plist */,
-				F442DF9922EA23EA00516346 /* SqueezeNet.mlmodel */,
 				F442DF9B22EA49E800516346 /* Resnet50.mlmodel */,
 			);
 			path = Recognize;
@@ -142,7 +139,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				F442DF8A22EA21E000516346 /* ViewController.swift in Sources */,
-				F442DF9A22EA23EA00516346 /* SqueezeNet.mlmodel in Sources */,
 				F442DF9C22EA49E800516346 /* Resnet50.mlmodel in Sources */,
 				F442DF8822EA21E000516346 /* AppDelegate.swift in Sources */,
 			);
