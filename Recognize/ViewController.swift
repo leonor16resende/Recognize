@@ -12,7 +12,9 @@ import Vision
 
 class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
 
+    @IBOutlet weak var textLabel: UILabel!
     @IBOutlet weak var imageView: UIImageView!
+    
     let imagePicker = UIImagePickerController()
     
     override func viewDidLoad() {
@@ -65,6 +67,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
     
     @IBAction func cameraTapped(_ sender: UIBarButtonItem) {
         present(imagePicker, animated: true, completion: nil)
+        textLabel.text = ""
         
     }
     
